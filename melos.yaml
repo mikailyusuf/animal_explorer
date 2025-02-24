@@ -1,0 +1,15 @@
+name: animal_explorer
+packages:
+  - apps/*
+  - packages/*
+
+scripts:
+  test:
+    run: flutter test
+    description: "Run tests in all packages and the main app."
+  build:
+    run: flutter pub get
+    description: "Run `flutter pub get` in all packages and the main app."
+  format:
+    run: dart format .
+    description: "Format all Dart files in the project."
